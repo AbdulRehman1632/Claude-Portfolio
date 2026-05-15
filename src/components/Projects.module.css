@@ -1,0 +1,131 @@
+.projects {
+  background: var(--bg2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 1.5rem;
+}
+
+/* CARD */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: transform 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* THUMBNAIL */
+.thumb {
+  height: 160px;
+  background: var(--bg3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--neon), var(--neon2));
+}
+
+.num {
+  position: absolute;
+  font-size: 6rem;
+  font-weight: 800;
+  color: rgba(0, 255, 136, 0.04);
+  font-family: var(--font-mono);
+  right: -10px;
+  bottom: -15px;
+  line-height: 1;
+  user-select: none;
+}
+
+.emoji {
+  font-size: 2.5rem;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 255, 136, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.overlayText {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  color: var(--neon);
+  border: 1px solid var(--neon);
+  padding: 0.5rem 1.2rem;
+}
+
+/* BODY */
+.body {
+  padding: 1.25rem;
+}
+
+.name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.desc {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.link:hover {
+  color: var(--neon);
+  border-color: var(--neon);
+}

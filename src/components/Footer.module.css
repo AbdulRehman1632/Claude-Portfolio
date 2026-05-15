@@ -1,0 +1,45 @@
+.footer {
+  padding: 1.5rem 2.5rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.lt { color: #facc15; }
+.gt { color: aqua; }
+
+.copy {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+
+.heart { color: #ff5f57; }
+
+.cvBtn {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--neon2);
+  border: 1px solid var(--neon2);
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s;
+}
+
+.cvBtn:hover {
+  background: rgba(0, 207, 255, 0.08);
+}
