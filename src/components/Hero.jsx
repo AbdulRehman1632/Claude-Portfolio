@@ -38,7 +38,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/cv/Abdul-Rehman-CV.pdf"
+              href="/cv/Abdul_Rehman_Resume.pdf"
               download
               className="btn-cv"
             >

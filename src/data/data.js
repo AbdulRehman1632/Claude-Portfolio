@@ -1,3 +1,23 @@
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+  FaJs,
+  FaReact,
+  FaGitAlt,
+  FaNodeJs,
+  FaGithub,
+  FaFigma,
+} from "react-icons/fa";
+
+import {
+  SiExpress,
+  SiFirebase,
+  SiMui,
+  SiElevenlabs,
+  SiN8N,
+} from "react-icons/si";
+
 // ─── LOGO ─────────────────────────────────────────────────────────────────────
 export const namelogo = {
   logo1: "fa-solid fa-less-than",
@@ -42,20 +62,20 @@ export const skillscontent = {
 };
 
 export const skills = [
-  { icon: "🌐", name: "HTML5" },
-  { icon: "🎨", name: "CSS3" },
-  { icon: "🅱️", name: "Bootstrap" },
-  { icon: "⚡", name: "JavaScript" },
-  { icon: "⚛️", name: "React" },
-  { icon: "🔀", name: "Git" },
-  { icon: "🟢", name: "Node.js" },
-  { icon: "🚂", name: "Express.js" },
-  { icon: "🔥", name: "Firebase" },
-  { icon: "🎭", name: "Material UI" },
-  { icon: "🖌️", name: "Figma" },
-  { icon: "🔊", name: "ElevenLabs" },
-  { icon: "🐙", name: "GitHub" },
-  { icon: "🔄", name: "n8n" },
+  { icon: FaHtml5, name: "HTML5" },
+  { icon: FaCss3Alt, name: "CSS3" },
+  { icon: FaBootstrap, name: "Bootstrap" },
+  { icon: FaJs, name: "JavaScript" },
+  { icon: FaReact, name: "React" },
+  { icon: FaGitAlt, name: "Git" },
+  { icon: FaNodeJs, name: "Node.js" },
+  { icon: SiExpress, name: "Express.js" },
+  { icon: SiFirebase, name: "Firebase" },
+  { icon: SiMui, name: "Material UI" },
+  { icon: FaFigma, name: "Figma" },
+  { icon: SiElevenlabs, name: "ElevenLabs" },
+  { icon: FaGithub, name: "GitHub" },
+  { icon: SiN8N, name: "n8n" },
 ];
 
 // ─── PROJECTS ─────────────────────────────────────────────────────────────────

@@ -13,12 +13,33 @@ export default function Skills() {
         <p className={styles.intro}>{skillscontent.para}</p>
 
         <div className={styles.grid}>
-          {skills.map((skill, i) => (
+          {/* {skills.map((skill, i) => (
             <div key={i} className={styles.chip}>
               <span className={styles.icon}>{skill.icon}</span>
               <span className={styles.name}>{skill.name}</span>
             </div>
-          ))}
+          ))} */}
+          {skills.map((skill, index) => {
+  const Icon = skill.icon;
+
+  return (
+    <div
+      key={index}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "10px",
+        padding: "20px",
+      }}
+    >
+      <Icon size={50} />
+      <p className={styles.name} style={{ margin: 0, textAlign: "center" }}>
+        {skill.name}
+      </p>
+    </div>
+  );
+})}
         </div>
       </div>
     </section>

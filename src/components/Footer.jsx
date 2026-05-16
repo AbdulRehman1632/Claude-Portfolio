@@ -15,7 +15,7 @@ export default function Footer() {
         © {year} · Crafted with <span className={styles.heart}>♥</span> by Abdul Rehman · Pakistan 🇵🇰
       </p>
       <a
-        href="/cv/Abdul-Rehman-CV.pdf"
+        href="/cv/Abdul_Rehman_Resume.pdf"
         download
         className={styles.cvBtn}
       >

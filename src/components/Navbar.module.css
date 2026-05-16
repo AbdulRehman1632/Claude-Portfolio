@@ -44,7 +44,8 @@
   font-size: 0.65rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--muted);
+  /* color: var(--muted); */
+  color:rgb(190, 190, 190);
   cursor: pointer;
   transition: color 0.2s;
   padding: 0;

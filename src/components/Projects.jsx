@@ -19,9 +19,9 @@ export default function Projects() {
                 <div className={styles.topBar} />
                 <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
                 <span className={styles.emoji}>{project.emoji}</span>
-                <div className={styles.overlay}>
+                {/* <div className={styles.overlay}>
                   <span className={styles.overlayText}>View Project →</span>
-                </div>
+                </div> */}
               </div>
 
               {/* Body */}

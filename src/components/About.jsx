@@ -16,6 +16,11 @@ export default function About() {
           <div className={styles.avatarWrap}>
             <div className={styles.avatarBox}>
               <span className={styles.avatarText}>&lt;AR/&gt;</span>
+              {/* <img
+  src="../public/assets/donee.png"
+  alt="avatar"
+  className={styles.avatar}
+/> */}
               <div className={styles.avatarGlow} />
             </div>
             <div className={styles.avatarShadow} />
