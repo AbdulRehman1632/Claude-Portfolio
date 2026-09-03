@@ -1,3 +1,4 @@
+// imports - top of file me
 import {
   FaHtml5,
   FaCss3Alt,
@@ -8,6 +9,7 @@ import {
   FaNodeJs,
   FaGithub,
   FaFigma,
+  FaPhoneVolume,
 } from "react-icons/fa";
 
 import {
@@ -16,6 +18,7 @@ import {
   SiMui,
   SiElevenlabs,
   SiN8N,
+  SiMongodb,
 } from "react-icons/si";
 
 // ─── LOGO ─────────────────────────────────────────────────────────────────────
@@ -71,13 +74,14 @@ export const skills = [
   { icon: FaNodeJs, name: "Node.js" },
   { icon: SiExpress, name: "Express.js" },
   { icon: SiFirebase, name: "Firebase" },
+  { icon: SiMongodb, name: "MongoDB" },
   { icon: SiMui, name: "Material UI" },
   { icon: FaFigma, name: "Figma" },
   { icon: SiElevenlabs, name: "ElevenLabs" },
   { icon: FaGithub, name: "GitHub" },
   { icon: SiN8N, name: "n8n" },
+  { icon: FaPhoneVolume, name: "Retell AI" },
 ];
-
 // ─── PROJECTS ─────────────────────────────────────────────────────────────────
 export const projects = [
   {
@@ -105,6 +109,14 @@ export const projects = [
     path: "https://perfumes-frontend-one.vercel.app/",
     credentials: null,
   },
+    {
+    name: "AI Calling Bot (CRM Integrated)",
+    description:
+      "A confidential AI voice calling bot built with Retell AI, integrated with CRM to automatically resolve customer queries in real-time 📞.",
+    emoji: "📞",
+    path: null,
+    credentials: null,
+  },
   {
     name: "Kindle Publishers",
     description:
@@ -113,14 +125,14 @@ export const projects = [
     path: "https://kindlepublishersusa.com/",
     credentials: null,
   },
-  {
-    name: "Honor",
-    description:
-      "Explore pristine shores, golden sands, and crystal-clear waters that beckon you to unwind and indulge in thrilling activities 🏄.",
-    emoji: "🏄",
-    path: "https://watertour.netlify.app/",
-    credentials: null,
-  },
+  // {
+  //   name: "Honor",
+  //   description:
+  //     "Explore pristine shores, golden sands, and crystal-clear waters that beckon you to unwind and indulge in thrilling activities 🏄.",
+  //   emoji: "🏄",
+  //   path: "https://watertour.netlify.app/",
+  //   credentials: null,
+  // },
   {
     name: "Rihla Travel & Tour",
     description:
@@ -129,14 +141,14 @@ export const projects = [
     path: "https://rihlatravelandtours.com/",
     credentials: null,
   },
-  {
-    name: "Weather App",
-    description:
-      "A sleek and responsive weather app providing real-time updates, including temperature, conditions, humidity, and wind speed 🌦️.",
-    emoji: "🌦️",
-    path: "https://weather-app1632.netlify.app/",
-    credentials: null,
-  },
+  // {
+  //   name: "Weather App",
+  //   description:
+  //     "A sleek and responsive weather app providing real-time updates, including temperature, conditions, humidity, and wind speed 🌦️.",
+  //   emoji: "🌦️",
+  //   path: "https://weather-app1632.netlify.app/",
+  //   credentials: null,
+  // },
   {
     name: "The Productist",
     description:
